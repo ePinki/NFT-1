@@ -1,0 +1,43 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EFEFEF;
+
+
+  &__left {
+    display: flex;
+  }
+
+  &__logo {
+    padding-top: 3px;
+    padding-right: 35px;
+    height: 47px;
+    margin-top: 4px;
+    margin-right: 35px;
+    border-right: 1px solid #F4F4F4;
+  }
+
+  &__logo-link {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #3D00B7;
+    font-family: 'Integral CF';
+  }
+
+  &__navigation {
+    display: flex;
+  }
+
+  &__navigation-item:not(:first-child) {
+    margin-left: 45px;
+  }
+
+  &__navigation-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+  }
+}
+

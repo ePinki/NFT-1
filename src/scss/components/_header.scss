@@ -44,6 +44,11 @@
     color: #000000;
   }
 
+  &__navigation-link:hover {
+    color: #3D00B7;
+    transition: all 0.3s;
+  }
+
   &__search-form {
     position: relative;
   }
@@ -72,10 +77,6 @@
     display: flex;
   }
 
-  &__btn-wrapper {
-    
-  }
-
   &__btn {
     cursor: pointer;
     outline: none;
@@ -89,6 +90,12 @@
     line-height: 100%;   
     color: #3D00B7; 
     margin-left: 16px;
+  }
+
+  &__btn:hover {
+    color: #FFFFFF;
+    background-color: #3D00B7;
+    transition: background-color 2.5s , color 1s;
   }
 
   &__btn-1 {
